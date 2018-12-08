@@ -9,11 +9,7 @@
     float: left;
 }
 @media screen and (max-width: 480px) {
-    .column {
-        float: none;
-        position: relative;
-        clear: both;
-    }
+    content: '2 .column.size-1of2';
 }
 .size-1of4 {
     width: 25%;
@@ -33,7 +29,7 @@
 /* Configurate salvattore with media queries */
 @media screen and (max-width: 450px) {
     #fh5co-board[data-columns]::before {
-        content: '1 .column';
+        content: '2 .column.size-1of2';
     }
 }
 
