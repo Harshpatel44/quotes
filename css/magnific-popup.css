@@ -160,6 +160,8 @@ button::-moz-focus-inner {
   font-size: 12px;
   line-height: 18px; }
 
+
+
 .mfp-arrow {
   position: absolute;
   opacity: 0.65;
@@ -339,14 +341,14 @@ img.mfp-img {
 
 @media all and (max-width: 900px) {
   .mfp-arrow {
-    -webkit-transform: scale(0.75);
-    transform: scale(0.75); }
+    -webkit-transform: scale(0.0);
+    transform: scale(0.0); }
   .mfp-arrow-left {
     -webkit-transform-origin: 0;
     transform-origin: 0; }
   .mfp-arrow-right {
-    -webkit-transform-origin: 100%;
-    transform-origin: 100%; }
+    -webkit-transform-origin: 0%;
+    transform-origin: 0%; }
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px; } }
