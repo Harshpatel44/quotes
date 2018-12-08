@@ -7859,7 +7859,8 @@ pre {
 }
 
 #fh5co-footer {
-  padding: 10em 0;
+  text-align: center;
+  padding-top: : 10em;
 }
 @media screen and (max-width: 768px) {
   #fh5co-footer {
